@@ -1,9 +1,14 @@
-# Docker Socket Proxy
+# Docker Socket Proxy#/services
 
 [![](https://images.microbadger.com/badges/version/tecnativa/docker-socket-proxy:latest.svg)](https://microbadger.com/images/tecnativa/docker-socket-proxy:latest "Get your own version badge on microbadger.com")
 [![](https://images.microbadger.com/badges/image/tecnativa/docker-socket-proxy:latest.svg)](https://microbadger.com/images/tecnativa/docker-socket-proxy:latest "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/commit/tecnativa/docker-socket-proxy:latest.svg)](https://microbadger.com/images/tecnativa/docker-socket-proxy:latest "Get your own commit badge on microbadger.com")
 [![](https://images.microbadger.com/badges/license/tecnativa/docker-socket-proxy.svg)](https://microbadger.com/images/tecnativa/docker-socket-proxy "Get your own license badge on microbadger.com")
+
+## Fork
+
+This is a fork of Tecnativa/docker-socket-proxy should extend the realy basic socket-proxy options (over the time). It's mainly used for own use but you can suggest features. 
+Warning: This repository may not be the newest version of Tecnativa/docker-socket-proxy . So please check for changes there aswell.
 
 ## What?
 
