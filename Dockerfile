@@ -26,7 +26,16 @@ ENV ALLOW_RESTARTS=0 \
     SYSTEM=0 \
     TASKS=0 \
     VERSION=1 \
-    VOLUMES=0
+    VOLUMES=0 \
+    GET_VOLUMES=0 \
+    GET_SWARM=0 \
+    GET_SECRETS=0 \
+    GET_PLUGINS=0 \
+    GET_NODES=0 \
+    GET_NETWORKS=0 \
+    GET_EXEC=0 \
+    GET_CONTAINERS=0 \
+    GET_CONFIGS=0 \
 COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
 
 # Metadata
@@ -37,4 +46,4 @@ LABEL org.label-schema.schema-version="1.0" \
       org.label-schema.license=Apache-2.0 \
       org.label-schema.build-date="$BUILD_DATE" \
       org.label-schema.vcs-ref="$VCS_REF" \
-      org.label-schema.vcs-url="https://github.com/Tecnativa/docker-socket-proxy"
+      org.label-schema.vcs-url="https://github.com/granlem/docker-socket-proxy/"
