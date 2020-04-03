@@ -35,7 +35,7 @@ ENV ALLOW_RESTARTS=0 \
     GET_NETWORKS=0 \
     GET_EXEC=0 \
     GET_CONTAINERS=0 \
-    GET_CONFIGS=0 \
+    GET_CONFIGS=0
 COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
 
 # Metadata
